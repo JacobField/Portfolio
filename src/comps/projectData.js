@@ -18,7 +18,7 @@ export const projectData = [
     reflections: "",
   },
   {
-    name: "Noughts_and_Crosses_App",
+    name: "Noughts and Crosses App",
     id: 2,
     link: "noughts-and-crosses-i5yhufg31-jacob-fields-projects.vercel.app",
     video: "Noughts_and_Crosses_Video.mp4",
