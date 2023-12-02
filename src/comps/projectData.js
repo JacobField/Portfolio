@@ -14,7 +14,7 @@ export const projectData = [
     link: "flashcards-app-to-learn-react-5rvxjyq9z-jacob-fields-projects.vercel.app",
     video: "Flashcard_App_Video.mp4",
     description:
-      "The purpose of this app was to increase my understanding of how React works, how it renders components, and how array methods can be utilised to dynamically create UIs. I learned a lot about how to dynamically display content, about how React works with array methods and how best to utilise this wonderful tool, all the while developing my knowledge of React via the flashcard info. It was a great project, and the flashcard data could easily be changed to help students study",
+      "The purpose of this app was to increase my understanding of how React works, how it renders components, and how array methods can be utilised to dynamically create UIs. I learned a lot about how to dynamically display content, about how React works with array methods and how best to utilise this wonderful tool, all the while developing my knowledge of React via the flashcard info. It was a great project, and the flashcard data could easily be changed to help students study other topics.",
     reflections: "",
   },
   {

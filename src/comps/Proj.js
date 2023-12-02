@@ -4,7 +4,7 @@ export function Proj({ name, descrip, video, link }) {
       {/* Give projectGrid grid display 3 columns*/}
       {/* Title should display above video */}
       {/* Either link to be seperate or embedded into proj name */}
-      <div className="nameDisplay">
+      <div className="nameDisplay" style={{ fontSize: "24px" }}>
         <a className="anchor" href={link}>
           {name}
         </a>
