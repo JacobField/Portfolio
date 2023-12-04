@@ -1,5 +1,5 @@
 export function timeChecker(colour1, colour2) {
-  const currentTime = new DataTransfer().getHours();
+  const currentTime = new Date().getHours();
 
   const colour = currentTime >= 8 && currentTime < 18 ? colour1 : colour2;
 

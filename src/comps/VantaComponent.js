@@ -1,11 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import BIRDS from "vanta/dist/vanta.birds.min";
+import { timeChecker } from "./timeChecker";
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 const VantaComponent = (props) => {
   // setting the background colour based on the time
-  const currentTime = new Date().getHours();
-  const skyColour = currentTime >= 8 && currentTime < 18 ? 0x82ddf0 : 0x325ba4;
+  const dayColour = 0x82ddf0;
+  const nightColour = 0x325ba4;
+  let colour = timeChecker(dayColour, nightColour);
 
   const [vantaEffect, setVantaEffect] = useState(null);
   const myRef = useRef(null);
@@ -21,7 +23,7 @@ const VantaComponent = (props) => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          backgroundColor: skyColour,
+          backgroundColor: colour,
           color2: 0xff70,
           wingSpan: 22.0,
           cohesion: 56.0,
