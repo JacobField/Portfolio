@@ -27,3 +27,9 @@ export const projectData = [
     reflections: "",
   },
 ];
+
+export const about = `
+  I am a highly motivated and team-focused problem-solver, dedicated to launching my tech career. My passion for learning and technology is evident in my Master's research, where I explored the ethical implementations of AI development. This enthusiasm drives my commitment to working in tech, with a focus on shaping future AIs within a friendly ethical framework. I am analytically minded and am committed to continuous learning and personal development. Drawing from a background in Education, I'm eager to channel my knowledge into my tech career. Beyond work, I hone my musical skills, play guitar, bass, and drums. An ardent American Football fan, I am the founder of a flag American Football team – the Derbyshire Ducks 🦆
+
+  Check out my projects below, or get in touch - I'd love to hear from you!
+`;

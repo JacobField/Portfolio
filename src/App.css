@@ -78,7 +78,7 @@
   border-radius: 30px;
   /* background-color: rgba(252, 76, 2, 0.5); */
   padding: 0.5rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,4 +92,19 @@
 .anchor {
   color: white;
   font-weight: bold;
+}
+
+.aboutContainer {
+  height: auto;
+  width: auto;
+  margin: 3rem;
+  border-radius: 20px;
+  color: white;
+  /* font-weight: bold; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContent {
 }
