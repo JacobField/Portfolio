@@ -1,4 +1,10 @@
+import { timeChecker2 } from "./timeChecker2";
+
 export function Proj({ name, descrip, video, link }) {
+  const dayColour = "rgba(252, 76, 2, 0.5)";
+  const nightColour = "rgba(0, 0, 99, 0.5)";
+  let divColour = timeChecker2(dayColour, nightColour);
+
   return (
     <>
       {/* Give projectGrid grid display 3 columns*/}
@@ -20,7 +26,9 @@ export function Proj({ name, descrip, video, link }) {
           </video>
         </div>
         {/* Description to be displayed to the right of video */}
-        <div className="descripDisplay">{descrip}</div>
+        <div className="descripDisplay" style={{ backgroundColor: divColour }}>
+          {descrip}
+        </div>
       </div>
     </>
   );

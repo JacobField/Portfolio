@@ -7,7 +7,7 @@ const VantaComponent = (props) => {
   // setting the background colour based on the time
   const dayColour = 0x82ddf0;
   const nightColour = 0x325ba4;
-  let colour = timeChecker(dayColour, nightColour);
+  let backgroundColour = timeChecker(dayColour, nightColour);
 
   const [vantaEffect, setVantaEffect] = useState(null);
   const myRef = useRef(null);
@@ -23,7 +23,7 @@ const VantaComponent = (props) => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          backgroundColor: colour,
+          backgroundColor: backgroundColour,
           color2: 0xff70,
           wingSpan: 22.0,
           cohesion: 56.0,
