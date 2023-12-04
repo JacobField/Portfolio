@@ -1,9 +1,9 @@
-import { timeChecker2 } from "./timeChecker2";
+import { descriptionTimeChecker } from "./descriptionTimeChecker";
 
 export function Proj({ name, descrip, video, link }) {
   const dayColour = "rgba(252, 76, 2, 0.5)";
   const nightColour = "rgba(0, 0, 99, 0.5)";
-  let divColour = timeChecker2(dayColour, nightColour);
+  let divColour = descriptionTimeChecker(dayColour, nightColour);
 
   return (
     <>
