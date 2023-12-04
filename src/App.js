@@ -2,6 +2,7 @@ import "./App.css";
 import VantaComponent from "./comps/VantaComponent";
 import { Projects } from "./comps/Projects";
 import { About } from "./comps/About";
+import { Footer } from "./comps/Footer";
 function App() {
   return (
     <div className="appContainer">
@@ -18,6 +19,7 @@ function App() {
         <About></About>
         <Projects></Projects>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
