@@ -6,9 +6,11 @@ export function Footer() {
   return (
     <>
       <div className="footerComp">
-        <FaLinkedin />
-        <FaInstagram />
-        <FaGithub />
+        <FaLinkedin style={{ color: "white", fontSize: "254px" }} />
+
+        <FaInstagram style={{ color: "white", fontSize: "254px" }} />
+
+        <FaGithub style={{ color: "white", fontSize: "254px" }} />
       </div>
     </>
   );
