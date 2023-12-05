@@ -4,6 +4,9 @@ import { Proj } from "./Proj";
 export function Projects() {
   return (
     <div className="projectsDiv">
+      <h1 className="sectionTitle" id="projectsSection">
+        My projects
+      </h1>
       {projectData.map((eachProject) => {
         return (
           <Proj

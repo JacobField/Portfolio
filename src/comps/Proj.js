@@ -11,7 +11,7 @@ export function Proj({ name, descrip, video, link }) {
       {/* Title should display above video */}
       {/* Either link to be seperate or embedded into proj name */}
       <div className="nameDisplay" style={{ fontSize: "24px" }}>
-        <a className="anchor" href={link}>
+        <a className="anchor" href={link} target="_blank" rel="noreferrer">
           {name}
         </a>
       </div>

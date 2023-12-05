@@ -3,9 +3,11 @@ import VantaComponent from "./comps/VantaComponent";
 import { Projects } from "./comps/Projects";
 import { About } from "./comps/About";
 import { Footer } from "./comps/Footer";
+import { Navbar } from "./comps/NavBar";
 function App() {
   return (
     <div className="appContainer">
+      <Navbar></Navbar>
       <VantaComponent></VantaComponent>
       <div className="overlay-content">
         <h1 style={{ fontSize: "45px" }}>Jacob Field</h1>
@@ -19,7 +21,7 @@ function App() {
         <About></About>
         <Projects></Projects>
       </div>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }

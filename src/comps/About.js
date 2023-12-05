@@ -6,8 +6,13 @@ export function About() {
   const nightColour = "rgba(0, 0, 99, 0.45)";
   let divColour = descriptionTimeChecker(dayColour, nightColour);
   return (
-    <div className="aboutContainer" style={{ backgroundColor: divColour }}>
-      <div className="aboutContent">{about}</div>
-    </div>
+    <>
+      <h1 className="sectionTitle" id="aboutSection">
+        About me
+      </h1>
+      <div className="aboutContainer" style={{ backgroundColor: divColour }}>
+        <div className="aboutContent">{about}</div>
+      </div>
+    </>
   );
 }
