@@ -9,20 +9,22 @@ import { SiPlaywright } from "react-icons/si";
 import { SiVitest } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { TbFileTypeCss } from "react-icons/tb";
+import { TbBrandNextjs } from "react-icons/tb";
 export function TechStack() {
   return (
-    <div>
+    <div className="teckStack">
       <IoLogoJavascript className="icon" />
       <TbBrandTypescript className="icon" />
       <FaReact className="icon" />
+      <TbBrandNextjs className="icon" />
       <FaHtml5 className="icon" />
       <TbFileTypeCss className="icon" />
       <BsFiletypeSql className="icon" />
       <SiExpress className="icon" />
       <IoLogoNodejs className="icon" />
       <FaGithub className="icon" />
-      <SiPlaywright />
-      <SiVitest />
+      <SiPlaywright className="icon" />
+      <SiVitest className="icon" />
     </div>
   );
 }

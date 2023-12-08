@@ -6,7 +6,7 @@ export function Proj({ name, descrip, video, link }) {
   let divColour = descriptionTimeChecker(dayColour, nightColour);
 
   return (
-    <>
+    <div className="proj">
       {/* Give projectGrid grid display 3 columns*/}
       {/* Title should display above video */}
       {/* Either link to be seperate or embedded into proj name */}
@@ -30,6 +30,6 @@ export function Proj({ name, descrip, video, link }) {
           {descrip}
         </div>
       </div>
-    </>
+    </div>
   );
 }

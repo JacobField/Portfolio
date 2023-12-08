@@ -4,6 +4,7 @@ import { Projects } from "./comps/Projects";
 import { About } from "./comps/About";
 import { Footer } from "./comps/Footer";
 import { Navbar } from "./comps/NavBar";
+import { TechStack } from "./comps/TeckStack";
 function App() {
   return (
     <div className="appContainer">
@@ -19,6 +20,7 @@ function App() {
 
       <div className="underneath">
         <About></About>
+        <TechStack></TechStack>
         <Projects></Projects>
       </div>
       <Footer></Footer>
