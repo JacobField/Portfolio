@@ -82,13 +82,14 @@
   margin-left: auto;
   margin-right: auto;
   color: white;
-  border-radius: 30px;
   /* background-color: rgba(252, 76, 2, 0.5); */
   padding: 0.5rem;
   /* font-weight: bold; */
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
+  padding: 1rem;
 }
 @media (max-width: 800px) {
   .projectGrid {
@@ -108,12 +109,13 @@
   height: auto;
   width: auto;
   margin: 3rem 3rem 1rem 3rem;
-  border-radius: 20px;
   color: white;
   /* font-weight: bold; */
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
+  padding: 1rem;
 }
 
 .footerComp {

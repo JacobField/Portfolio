@@ -1,7 +1,7 @@
 import { descriptionTimeChecker } from "./descriptionTimeChecker";
 
 export function Proj({ name, descrip, video, link }) {
-  const dayColour = "rgba(252, 76, 2, 0.5)";
+  const dayColour = "rgba(252, 76, 2, 0.7)";
   const nightColour = "rgba(0, 0, 99, 0.4)";
   let divColour = descriptionTimeChecker(dayColour, nightColour);
 
