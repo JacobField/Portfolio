@@ -15,8 +15,8 @@
   font-size: 1.2rem;
   line-height: 1.6;
   color: #333;
-
   font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
 .VantaApp {
@@ -90,6 +90,7 @@
   align-items: center;
   border-radius: 20px;
   padding: 1rem;
+  text-shadow: 1px 1px grey;
 }
 @media (max-width: 800px) {
   .projectGrid {
@@ -116,6 +117,7 @@
   align-items: center;
   border-radius: 20px;
   padding: 1rem;
+  text-shadow: 1px 1px grey;
 }
 
 .footerComp {
@@ -160,4 +162,16 @@
 .navAnchor {
   color: white;
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #41535e; /* Set the background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6f8ea2; /* Set the color of the scrollbar handle */
 }
