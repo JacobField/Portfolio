@@ -92,11 +92,6 @@
   padding: 1rem;
   text-shadow: 1px 1px grey;
 }
-@media (max-width: 800px) {
-  .projectGrid {
-    grid-template-columns: 1fr; /* Display each column on a new line for smaller screens */
-  }
-}
 
 .anchor {
   color: white;
@@ -135,6 +130,7 @@
 .icon {
   color: white;
   font-size: 3rem;
+  /* box-shadow: 1px 1px black; */
 }
 
 .sectionTitle {
@@ -174,4 +170,35 @@
 
 ::-webkit-scrollbar-thumb {
   background: #6f8ea2; /* Set the color of the scrollbar handle */
+  border-radius: 100px;
+}
+
+.teckStack {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  place-items: center;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  width: 100%;
+  height: 3rem;
+  margin: 5rem 0rem 5rem 0rem;
+}
+
+@media (max-width: 800px) {
+  .projectGrid {
+    grid-template-columns: 1fr; /* Display each column on a new line for smaller screens */
+  }
+  .teckStack {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 0.5rem;
+    /* margin: 1rem; */
+  }
+}
+
+.proj {
+  margin: 3rem 0 0 0;
 }
