@@ -5,7 +5,7 @@ export const projectData = [
     link: "https://reading-room-app.vercel.app/",
     video: "The_Reading_Room.mp4",
     description:
-      "As our final School Of Code project, we attempted to solve the problem of some children not being able to form positive reading habits by themselves. Working in a team of 6, we created this full stack app that is designed to help grow a love of reading in children. Inspired by apps that gamify learning, such as Duo Lingo, we wanted to create a chilled out space where children could concentrate on learning, on developing learning comprehension, and on having fun doing so. ",
+      "Solving the problem of children not being able to form positive reading habits, 'The Reading Room' is a full stack Next.js app, utilising Chakra UI and SupaBase authentication. Via a restful API with CRUD functionality, the app promotes reading comprehension in children by acting as a 'reading record' where they can take notes on their reading sessions, and then access them next time. Inspired by DuoLingo, the app 'gamifies' reading by having a fun avatar that users can interact with, encouraging users to be excited about using the app for their next reading session.",
     reflections: "",
   },
   {
