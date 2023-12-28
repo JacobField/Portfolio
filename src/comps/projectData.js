@@ -1,7 +1,16 @@
 export const projectData = [
   {
-    name: "AI Haiku Generator",
+    name: "The Reading Room",
     id: 0,
+    link: "https://reading-room-app.vercel.app/",
+    video: "The_Reading_Room.mp4",
+    description:
+      "As our final School Of Code project, we attempted to solve the problem of some children not being able to form positive reading habits by themselves. Working in a team of 6, we created this full stack app that is designed to help grow a love of reading in children. Inspired by apps that gamify learning, such as Duo Lingo, we wanted to create a chilled out space where children could concentrate on learning, on developing learning comprehension, and on having fun doing so. ",
+    reflections: "",
+  },
+  {
+    name: "AI Haiku Generator",
+    id: 1,
     link: "https://haiku-app-open-ai-api.vercel.app/",
     video: "Haiku_Generator_App.mp4",
     description:
@@ -10,7 +19,7 @@ export const projectData = [
   },
   {
     name: "Flashcard App To Learn React",
-    id: 1,
+    id: 2,
     link: "https://flashcards-app-to-learn-react.vercel.app/",
     video: "Flashcard_App_Video.mp4",
     description:
@@ -19,7 +28,7 @@ export const projectData = [
   },
   {
     name: "Noughts and Crosses App",
-    id: 2,
+    id: 3,
     link: "https://noughts-and-crosses-kappa.vercel.app/",
     video: "Noughts_and_Crosses_Video.mp4",
     description:
