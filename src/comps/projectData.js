@@ -18,8 +18,17 @@ export const projectData = [
     reflections: "",
   },
   {
-    name: "Flashcard App To Learn React",
+    name: "D&D Dice App",
     id: 2,
+    link: "https://d20-omega.vercel.app/",
+    video: "Dice app - all dice.mp4",
+    description:
+      "Driven by the desire to create something that myself and my friends would use in real life, I created a Dice Application, in which different dice can be rolled. Building on this idea, I then introduced a personalisable 'life counter', for other games. Development of this app pushed my skills into a new area - TypeScript. Learning a new (but familiar) language was a great experience, and I can see the benefits of using a strictly typed language. Additionally built with React, this app was the first step into delving further into TypeScript, and I am continuing to develop my TS skills and pushing myself further.",
+    reflections: "",
+  },
+  {
+    name: "Flashcard App To Learn React",
+    id: 3,
     link: "https://flashcards-app-to-learn-react.vercel.app/",
     video: "Flashcard_App_Video.mp4",
     description:
@@ -28,7 +37,7 @@ export const projectData = [
   },
   {
     name: "Noughts and Crosses App",
-    id: 3,
+    id: 4,
     link: "https://noughts-and-crosses-kappa.vercel.app/",
     video: "Noughts_and_Crosses_Video.mp4",
     description:
