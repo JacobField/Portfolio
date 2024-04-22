@@ -36,11 +36,7 @@ export function Footer() {
         >
           <MdOutlineMailOutline className="icon" />
         </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="Jacob Field CV 2023 - 2024.pdf"
-        >
+        <a target="_blank" rel="noreferrer" href="Jacob Field CV 2024.pdf">
           <IoMdPerson className="icon" />
         </a>
       </div>
